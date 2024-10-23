@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      font-family: sans-serif;
+    }
+    body{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: 0px;
+      display: grid;
+      grid-template-columns: 60% 40%;
+      grid-template-rows: 1fr;
+    }
+    .hero{
+      display: grid;
+      grid-column: 2;
+      grid-row: 1;
+    }
+    .container{
+      display: grid;
+      grid-column: 1;
+      grid-row: 1;
+      padding-left: 100px;
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+    }
+    .hero1{
+      width: 100%;
+      height: 100vh;
+    }
+    .we{
+      color: rgba(165, 42, 42, 0.646);
+      font-weight: 1px;
+    }
+    h1{
+      min-width: 500px;
+      font-weight: 100;
+    }
+    p{
+      max-width: 400px;
+      color: rgba(165, 42, 42, 0.646);
+    }
+    input{
+      height: 40px;
+      width: 400px;
+      border-radius: 50px;
+      background-color: white;
+      border: 1px solid rgba(128, 128, 128, 0.619);
+      padding-left: 10px;
+      position: relative;
+    }
+    button{
+      width: 80px;
+      height: 43px;
+      background-color: brown;
+      color: white;
+      text-align: center;
+      border-radius: 50px;
+      border: none;
+      position: absolute;
+      left: 433px;
+    }
+    .maintext{
+      padding-top: 100px;
+      font-size: 30px;
+      gap: 10px;
+    }
+    .btn{
+      padding-top: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <img class="hero1" src="./images/hero-desktop.jpg" alt="photo">
+  </div>
+  <div class="container">
+    <div class="logo">
+      <img src="./images/logo.svg" alt="logo">
+    </div>
+    <div class="maintext"><h1><span class="we">WE'RE</span><br>COMING<br>SOON</h1></div>
+    <div class="text"><p>Hello fellow shoppers! We're currently building our new<br> fashion store. 
+      Add your email below to stay up-to-date<br> with announcements and our launch deals.</p></div>
+      <div class="btn">
+        <input class="buton" type="email" placeholder="Email Address">
+        <button>></button>
+      </div>
+  </div>
+</body>
+</html>
+  
